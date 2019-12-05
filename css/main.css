@@ -27,6 +27,10 @@ body {
   width: 100%;
 }
 
+.banner h1 {
+  margin-bottom: 0;
+}
+
 .around {
   display: none;
 }
