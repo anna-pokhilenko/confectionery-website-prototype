@@ -1,0 +1,366 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: normal 100%/1.3 sans-serif;
+  font-family: Cardo, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: none;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+li a {
+  text-decoration: underline;
+}
+
+.banner {
+  position: relative;
+}
+
+.choco {
+  width: 27%;
+  position: absolute;
+  bottom: 13%;
+  right: 35%;
+}
+
+header {
+  background-color: #d9d9d9;
+  padding-bottom: .1rem;
+}
+
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  display: inline-block;
+  width: 33.3333%;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin: .5rem;
+}
+
+.popular {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.popular > div {
+  display: flex;
+  margin-left: .5rem;
+}
+
+.popular img {
+  display: inline-block;
+  width: 45%;
+}
+
+.video {
+  padding-top: .7rem;
+  background-color: #d9d9d9;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.crew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.crew img {
+  width: 33.3333%;
+}
+
+footer {
+  background-color: #d9d9d9;
+}
+
+footer a {
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  border: 7px solid #fff;
+  border-radius: 10px;
+  text-decoration: underline;
+  margin: 0 2rem;
+}
+
+footer img {
+  margin: .7rem 0;
+}
+
+footer p {
+  margin-left: 4rem;
+}
+
+small {
+  margin: 2.5rem;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
+  li {
+    padding: 1rem;
+    text-align: center;
+    width: 33.333%;
+    list-style: none;
+    border: 1px solid #000;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  .popular div {
+    padding-top: 4.5rem;
+  }
+
+  .sides {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sides h2 {
+    display: inline-block;
+    width: 65%;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .img-flex {
+    width: 15%;
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+  .crew img {
+    width: 30%;
+  }
+
+  .crew div {
+    width: 20%;
+  }
+
+  a:hover {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+  }
+
+  li:hover {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+  }
+
+  li:hover a {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+  .rose-div {
+    position: relative;
+  }
+
+  .rose-div img {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .rose-div .rose {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    width: 40%;
+  }
+
+  .desire-div {
+    position: relative;
+  }
+
+  .desire-div .desire {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    width: 40%;
+    z-index: 10000;
+  }
+
+  .desire-div img {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .holiday-div {
+    position: relative;
+  }
+
+  .holiday-div .holiday {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    width: 40%;
+    z-index: 10000;
+  }
+
+  .holiday-div img {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  li:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  li:hover a {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .video img {
+    width: 73%;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .video img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .rose-div img {
+    width: 50%;
+  }
+
+  .rose-div .rose {
+
+    top: 40%;
+    left: 35%;
+    width: 30%;
+  }
+
+  .desire-div .desire {
+    top: 33%;
+    left: 36%;
+    width: 30%;
+  }
+
+  .desire-div img {
+    width: 50%;
+  }
+
+  .holiday-div .holiday {
+    top: 35%;
+    left: 40%;
+    width: 25%;
+  }
+
+  .holiday-div img {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
