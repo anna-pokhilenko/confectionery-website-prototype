@@ -18,17 +18,17 @@ html {
   box-sizing: inherit;
 }
 
-.img-flex {
-  display: none;
-}
-
 body {
   margin: 0;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
+}
+
+.around {
+  display: none;
 }
 
 li a {
@@ -185,7 +185,7 @@ small {
     font-size: 2.5rem;
   }
 
-  .img-flex {
+  .around {
     width: 15%;
     display: inline-block;
     justify-content: space-between;
