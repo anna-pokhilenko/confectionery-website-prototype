@@ -173,9 +173,6 @@ small {
     text-decoration: none;
   }
 
-  .popular div {
-    padding-top: 4.5rem;
-  }
 
   .sides {
     display: flex;
@@ -220,7 +217,6 @@ small {
     background-color: #000;
     color: #fff;
   }
-
 
 }
 
